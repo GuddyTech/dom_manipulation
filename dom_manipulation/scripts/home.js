@@ -23,6 +23,26 @@ const divEl = document.querySelector("div");
 console.log(divEl);
 divEl.append(bigText);
 
+//GETTING ATTRIBUTES
+
+//add attribute
+bigText.setAttribute("class", "heading");
+console.log(bigText);
+
+// remove attribute
+bigText.classList.add("");
+
+bigText.removeAttribute("title");
+
+// Add classname
+bigText.classList.add("new-class");
+
+//remove class
+bigText.classList.remove("new-Class");
+
+//toggle class
+bigText.classListtoggle("light");
+
 
 
 
