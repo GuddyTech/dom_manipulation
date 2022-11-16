@@ -30,7 +30,7 @@ bigText.setAttribute("class", "heading");
 console.log(bigText);
 
 // remove attribute
-bigText.classList.add("");
+// bigText.classList.add("");
 
 bigText.removeAttribute("title");
 
@@ -41,7 +41,16 @@ bigText.classList.add("new-class");
 bigText.classList.remove("new-Class");
 
 //toggle class
-bigText.classListtoggle("light");
+// bigText.classListtoggle("light");
+
+const inputEl = document.getElementsByTagName("input");
+console.log(inputEl);
+console.log(inputEl[0]);
+//console.log(inputEl[0].value = 56);
+
+
+let inputVal = inputEl[0].value;
+console.log(inputVal);
 
 
 
