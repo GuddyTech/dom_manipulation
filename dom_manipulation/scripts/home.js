@@ -53,6 +53,23 @@ let inputVal = inputEl[0].value;
 console.log(inputVal);
 
 
+const mainEl = document.createElement("main");
+console.log(mainEl);
+
+//Adding multiple CSS declarations 
+//mainEl.setAttribute("style", "height: 30vh; background-color: yellow");
+
+//OR
+
+ mainEl.style.cssText = "background-color: yellow; border: 4px solid purple; height: 20vh";
+
+
+bodyBox.append(mainEl);
+
+
+
+
+
 
 
 
